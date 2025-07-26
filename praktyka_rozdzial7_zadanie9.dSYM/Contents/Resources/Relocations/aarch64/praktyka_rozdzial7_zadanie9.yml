@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/igorrob/Desktop/Informatyka/C++/praktyka_rozdzial7_zadanie9'
+relocations:
+  - { offset: 0x5148, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x16D62, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x5166, size: 0x8, addend: 0x0, symName: __ZL4SLEN, symObjAddr: 0x520, symBinAddr: 0x100003DA8, symSize: 0x0 }
+  - { offset: 0x5309, size: 0x8, addend: 0x0, symName: __Z8display3PK7studenti, symObjAddr: 0x410, symBinAddr: 0x100003BC0, symSize: 0x110 }
+  - { offset: 0x536D, size: 0x8, addend: 0x0, symName: __Z8display2PK7student, symObjAddr: 0x380, symBinAddr: 0x100003B30, symSize: 0x90 }
+  - { offset: 0x539B, size: 0x8, addend: 0x0, symName: __Z8display17student, symObjAddr: 0x2F4, symBinAddr: 0x100003AA4, symSize: 0x8C }
+  - { offset: 0x53CD, size: 0x8, addend: 0x0, symName: __Z7getinfoP7studenti, symObjAddr: 0x148, symBinAddr: 0x1000038F8, symSize: 0x1AC }
+  - { offset: 0x5440, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037B0, symSize: 0x148 }
+...
