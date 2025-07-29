@@ -1,0 +1,68 @@
+Zadanie 1
+funkcje krótkie np. void function1(int a, int b){return a + b}
+
+Zadanie 2
+a) void piosenka(const char* tytul, int razy = 1);
+b) zadne 
+c) Tak
+
+Zadanie 3
+void iquote(int x){
+    std::cout<<'"'<<x<<'"\n';
+}
+void iquote(double x){
+    std::cout<<'"'<<x<<'"\n';
+}
+void iquote(const char* x){
+    std::cout<<'"'<<x<<'"\n';
+}
+
+Zadanie 4
+struct pudelko{
+    char producent[40];
+    float wysokosc;
+    float szerokosc;
+    float dlugosc;
+    float pojemnosc;
+}
+a) void show(const pudelko& p1){
+    std::cout<<p1.producent<<endl;
+    std::cout<<p1.wysokosc<<endl;
+    std::cout<<p1.dlugosc<<endl;
+    std::cout<<p1.pojemnosc<<endl;
+}
+
+b) float set_pojemnosc(pudelko& p1){
+    p1.pojemnosc = p1.wysokosc * p1.dlugosc * p1.szerokosc;
+}
+
+Zadanie 5
+Dodać znak & zamiast * w prototypie i definicji. Mozna wtedy w definicji funkcji nie uzywac dereferencji, a po prostu pa[i];
+
+Zadanie 6
+a) Uzycie parametru domyslnego 
+double masa(double gestosc, double objetosc = 1.0);
+b) Uzycie przeciązenia (nie mozna parametru domyslnego)
+void repeat(int, const char*);
+void repeat(const char*)
+c) Uzycie przeciązenia funkcji
+int srednia(int, int);
+double srednia(double, double);
+d) Wcale, taka sama sygnatura
+
+Zadanie 7
+template<class T> auto bigger(T a, T b){
+    return a > b ? a : b;
+}
+
+Zadanie 8
+template pudelko bigger_pojemnosc<pudelko>(pudelko p1, pudelko p2){
+    return p1.pojemnosc < p2.pojemnosc ? p2 : p1;
+}
+
+Zadanie 9
+v1 - float
+v2 - float&
+v3 - float&
+v4 - int
+v5 - double
